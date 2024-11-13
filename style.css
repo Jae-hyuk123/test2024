@@ -1,0 +1,59 @@
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 1000
+
+.afacad-flux-<uniquifier> {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+form{
+	background-color: white;
+	width: 50%;
+	margin: 0 auto;
+	border: 4px solid #4287f5;
+}
+
+body{
+	background-image: url(soccer.png);
+	background-attachment: fixed;
+	background-position: center;
+	
+	text-align: center;
+	background-size: cover;
+	
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+p {
+	font-family: "Afacad Flux", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings:
+	"slnt" 0;
+	
+	background-color: white;
+}
+
+.col-sm-6 > img{
+	width: 650px;
+	height: 550px;
+}
